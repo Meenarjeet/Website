@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meenarjeet Enterprises | Industrial Tapes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#top">Meenarjeet<span>Enterprises</span></a>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Tapes that hold<br>when the job gets tough.</h1>
+      <p>Packaging, electrical, masking and safety tapes for workshops, warehouses and factories. <strong>Best price always!</strong></p>
+      <a class="btn" href="#products">See products</a>
+    </section>
+
+    <section id="products" class="catalog">
+      <div class="controls">
+        <div class="filters" id="filters">
+        </div>
+        <input type="search" id="search" placeholder="Search products..." aria-label="Search products">
+      </div>
+
+      <div class="grid" id="product-grid"></div>
+      <p class="empty" id="empty" hidden>Nothing found. Try another word.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact us for pricing and availability.</h2>
+      <p>Tell us the tape, size and quantity you need. We reply within one working day. <br><br><strong>Want any other product? Contact us, we might have it.</strong></p>
+      <a class="btn btn-light" id="contact-btn" href="mailto:meenarjeet@gmail.com">Email meenarjeet@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Meenarjeet Enterprises</footer>
+  <script src="script.js"></script>
+</body>
+</html>
